@@ -53,37 +53,42 @@
         <hr/>
         <div id="featured">
             <h2>Featured Work</h2>
-            <div class="featured-blob-container">
-                <div class="featured-blob"  id="interwoven-stories-vol-1">
-                    <div class="featured-blob-showcase">
-                        <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3017447510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/interwoven-stories-vol-1">Interwoven Stories, Vol 1 by Liam Carney</a></iframe>
-                    </div>
-                    <div class="featured-blob-text">
-                        <div class="featured-blob-header">
-                            <h3>Interwoven Stories, Vol 1 </h3>
-                            <button onclick="popDown('interwoven-stories-vol-1')">X</button>
+
+            <div class="featured-blurb-container" blurb-container>
+                <template blurb-template>
+                    <div class="featured-blurb" id="#">
+                        <div class="featured-blurb-showcase" blurb-showcase>
                         </div>
-                        <p>Bite plants scratch run up and down stairs. Hunt anything claw drapes flex claws on the human's belly and purr like a lawnmower instantly break out into full speed gallop across the house for no reason. Skid on floor, crash into wall pet me pet me pet me pet me, bite, scratch, why are you petting me. Chase imaginary bugs sit on the laptop, give attitude, or paw at beetle and eat it before it gets away. Give me some of your food give me some of your food give me some of your food meh, i don't want it it's 3am, time to create some chaos cat milk copy park pee walk owner escape bored tired cage droppings sick vet vomit. Refuse to leave cardboard box attack curtains, shove bum in owner's face like camera lens, so i just saw other cats inside the house and nobody ask me before using my litter box, howl uncontrollably for no reason dont wait for the storm to pass, dance in the rain. Push your water glass on the floor one of these days i'm going to get that red dot, just you wait and see , yet don't nosh on the birds and behind the couch. Annoy the old grumpy cat, start a fight and then retreat to wash when i lose. My slave human didn't give me any food so i pooped on the floor. Chew the plant present belly, scratch hand when stroked. Howl uncontrollably for no reason go into a room to decide you didn't want to be in there anyway soft kitty warm kitty little ball of furr but kitten is playing with dead mouse x. Found somthing move i bite it tail meow loudly just to annoy owners purr as loud as possible, be the most annoying cat that you can, and, knock everything off the table or refuse to drink water except out of someone's glass get video posted to internet for chasing red dot, or lick butt and make a weird face, make it to the carpet before i vomit mmmmmm. </p>
-                    </div>                            
-                </div>
-            </div>
-            <div class="featured-container">
-                <div class="featured-card" onclick="popUp('interwoven-stories-vol-1')">
-                    <img class="featured-image" src="https://f4.bcbits.com/img/a3454577950_16.jpg">
-                    <div class="featured-title">
-                        <h3>Interwoven Stories, Vol 1</h3>
-                        <p>2023</p>
+                        <div class="featured-blurb-text" blurb-text-div>
+                            <div class="featured-blurb-header" blurb-header-div>
+                                <h3 class="featured-blurb-header-text" blurb-header></h3>
+                                <button class="featured-blurb-header-button" blurb-button></button>
+                            </div>
+                            <p class="featured-blurb-description" blurb-description></p>
+                        </div>
                     </div>
-                </div>
+                </template>
             </div>
+
+            <div class="featured-container" featured-container>
+                <template featured-template>
+                    <div class="featured-card">
+                        <img class="featured-image" src="#" featured-img>
+                        <div class="featured-caption">
+                            <h3 class="featured-title" featured-title></h3>
+                            <p class="featured-description" featured-description></p>
+                        </div>
+                    </div>
+                </template>
             </div>
+            
+        </div>
             <!--
             <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3017447510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/interwoven-stories-vol-1">Interwoven Stories, Vol 1 by Liam Carney</a></iframe>
             <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3060262278/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/veiled">Veiled by Liam Carney</a></iframe>
             <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2512784369/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/anesthesia">Anesthesia by Liam Carney</a></iframe>
             <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=480859637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/what-we-knew-2">What We Knew by Liam Carney</a></iframe>
             -->
-        </div>
         <hr/>
         <div id="contact">
             <h2>Contact</h2>
@@ -91,6 +96,7 @@
                 Contact Liam! call him now !!!!
             </p>
         </div>
+    </div>
 
     </div>
     <hr/>

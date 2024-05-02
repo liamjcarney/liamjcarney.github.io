@@ -63,7 +63,7 @@ footer{
     grid-gap: 5vw;
 }
 
-.featured-card{
+featured-card{
     width:min-content;
     display:grid;
     border: 2px solid;
@@ -75,16 +75,15 @@ footer{
     max-width: 20vw;
 }
 
-.featured-title{
+.featured-caption{
     text-align: center;
 }
 
-.featured-blob-container{
-
+.featured-blurb-container{
     position: absolute;
 }
 
-.featured-blob{
+.featured-blurb{
     visibility: hidden;
     position: fixed;
     width: 80%;
@@ -98,7 +97,7 @@ footer{
     grid-row-gap: 0px; 
 }
 
-.featured-blob-showcase{
+.featured-blurb-showcase{
     background-color: rgba(0, 0, 0, 0.8);
     padding: 20px;
     justify-content: center;
@@ -108,21 +107,21 @@ footer{
 
 }
 
-.featured-blob-text{
+.featured-blurb-text{
     color: white;
     background-color: rgba(0, 0, 0, 0.9);
     padding: 10px;
     border: 6px solid gray;
 }
 
-.featured-blob-header{
+.featured-blurb-header{
     display:flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
 
-.featured-blob-header button{
+.featured-blurb-header button{
     margin-right: 0 auto;
     padding: 10px;
     font-size: 2em;
