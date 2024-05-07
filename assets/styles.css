@@ -1,42 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+
+:root{
+    --primary: #FFF2DB;
+    --textdark: #25150C;
+    --font: "Fraunces",serif;
+}
 
 html {
     scroll-snap-type: y proximity;
     scroll-behavior: smooth;
 }
 
-
+h1{
+    font-family: "Fraunces",serif;
+    font-weight: 600;
+    font-size: 10em;
+    color: #fff;
+}
 
 header{
-    background-color: black;
-    display: inline-flex;
+    background: var(--primary);
+    background: -moz-linear-gradient(180deg, var(--primary) 0%, var(--primary) 85%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(180deg, var(--primary) 0%, var(--primary) 85%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary) 85%, rgba(0,0,0,0) 100%);
+    
+    color: var(--textdark);
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
     align-items: center;
     width: 100%;
-    height: 5vh;
+    height: 7vh;
     padding: 10px;
     position: fixed;
     top: 0;
     left: 0;
-    margin: 0 
+    margin: 0;
+    z-index: 1000;
 }
 
 header img{
     width: 6vh;
     height: 4vh;
 }
-
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .navbar li{
+    vertical-align: center;
+    padding: 10px;
     list-style: none;
     display: inline-block;
     position: relative;
 }
 
 .navbar a{
-    color: white;
+    font-family: var(--font);
+    color: var(--textdark);
+    font-size: large;
+}
+
+.fa{
+    color: var(--textdark);
+    text-decoration: none;
+    padding: 10px;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
 }
 
 #main{
-    margin-top: 9vh;
+
+    
 }
+
+#hero{
+    background-image: url(./hero-header.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#hero  img{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+#hero h1{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+ 
 
 #about{
     margin: 100px;
@@ -63,24 +130,40 @@ footer{
     grid-gap: 5vw;
 }
 
-featured-card{
+.featured-card{
     width:min-content;
     display:grid;
     border: 2px solid;
     padding: 10px;
     justify-content: center;
+    width: 20vw;
+    overflow: hidden;
 }
 
 .featured-image{
-    max-width: 20vw;
+    max-width: 15vw;
+    max-height: 30vh;
+    transition: all 0.2s ease-out;
 }
 
+.featured-image:hover{
+    max-width: 15vw;
+    overflow: hidden;
+    -ms-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    transform:scale(1.2);
+    z-index: 10;
+}
 .featured-caption{
     text-align: center;
 }
 
 .featured-blurb-container{
     position: absolute;
+    z-index: 20;
 }
 
 .featured-blurb{
@@ -129,5 +212,4 @@ featured-card{
     color: white;
     background: none;
     border: none;
-    
 }
