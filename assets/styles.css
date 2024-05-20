@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
-
 :root{
     --primary: #FFF2DB;
     --textdark: #25150C;
@@ -36,7 +35,7 @@ h3{
 
 h4{
     font-weight: 300;
-    font-size: 1em;
+    font-size: 2em;
     line-height: 0;
 }
 
@@ -123,44 +122,67 @@ body{
 
 #hero img{
     display: block;
-    position: absolute;
+    position: relative;
+    top: 0;
+    left: 0;
+    animation: 3s ease-out 0s 1 signatureGrow;
     
 }
 
 #hero-text{
     display: block;
-    position: absolute;
+    position: relative;
+    top: -50vh;
+    left: -25vw;
 }
 
 #hero-main-div{
     position: relative;
     top: 25%;
-    left: 25%
+    left: 25%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 #hero h1{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    animation: ani 5s linear infinite;
+    text-align: center;
     transform-origin: center;
-    
+    animation: 1.5s ease-in-out 0s 1 grow;
+
 }
 
+@keyframes grow {
+    0% {
+      font-weight: 300;
+    }
+    100% {
+      font-weight: 600;
+    }
+  }
+
+@keyframes signatureGrow{
+    0%{
+        transform:
+            scaleX(0.9)
+            scaleY(0.7)
+    }
+    100%{
+        transform:
+            scaleX(1)
+            scaleY(1)
+    }
+}
 
 .filter{
     filter: url(#noiseFilter);
-    opacity: 0.4;
+    opacity: 0.3;
     position: relative;
     width: 100%;
     height: 100%;
+    top: -100vh;
+    left: 0;
   }
-
-@keyframes ani{
-    50% {font-weight: 800;}
-  }
- 
 
 #about-div{
     background: var(--primary);
@@ -203,16 +225,19 @@ footer{
 
 #discography-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
-    grid-gap: 200px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
+    grid-column-gap: 25vw;
+    grid-row-gap: 15vh;
+    align-items: center;
+    justify-content: center;
 }
 .album-container{
     display: block;
-    height: 300px; 
+    height: 400px; 
 }
 .album-container:hover{
     .vinyl-record img{
-        translate: 150px;
+        translate: 200px;
         animation: spin 2s infinite linear;
     }
 }
@@ -224,7 +249,7 @@ footer{
 }
 .vinyl-record img{
     transition: 0.3s ease-in-out;
-    width: 280px;
+    width: 380px;
 }
 /* TODO: moz, webkit, etc for animations */
 @keyframes spin { 
@@ -238,13 +263,13 @@ footer{
 
 .album-cover{
     position: relative;
-    top: -300px;
+    top: -400px;
     left: 0;
 }
 .album-cover img{
-    width: 300px;
+    width: 400px;
     border-radius: 5px;
-    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.25);
 }
 
 #album-showcase-container{
