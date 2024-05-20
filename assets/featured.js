@@ -1,3 +1,15 @@
+function popUp(){
+    console.log("shteor")
+    const ent = document.getElementById("album-showcase-container");
+    if(ent.style.visibility == "visible"){
+        ent.style.visibility = "hidden";
+        return;
+    } 
+        ent.style.visibility = "visible"
+        return;
+}
+
+/*
 const featuredTemplate = document.querySelector("[featured-template]");
 const featuredContainer = document.querySelector("[featured-container]");
 
@@ -65,3 +77,7 @@ fetch("./assets/featured.json")
 
         })
     })
+
+
+*/
+
