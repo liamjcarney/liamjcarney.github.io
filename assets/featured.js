@@ -1,14 +1,61 @@
-function popUp(){
-    console.log("shteor")
+const discogTemplate = document.querySelector("[discog-template]");
+const discogContainer = document.querySelector("[discog-container]");
+var discography = []
+
+function popUp(idx){
+    let entry = discography[idx]
     const ent = document.getElementById("album-showcase-container");
-    if(ent.style.visibility == "visible"){
+    if(ent.style.visibility == "visible") {
         ent.style.visibility = "hidden";
+        document.body.classList.remove("remove-scrolling");
         return;
-    } 
-        ent.style.visibility = "visible"
+    }
+        ent.style.visibility = "visible";
+        document.body.classList.add("remove-scrolling");
+        document.getElementById("album-showcase-name").innerText=entry.name;
+        document.getElementById("album-showcase-title").innerText=entry.title;
+        document.getElementById("album-showcase-description").innerText=entry.description;
+        document.getElementById("album-showcase-cover").src = entry.img_location;
+        document.getElementById("album-showcase-embed").innerHTML = entry.embed;
+        let next = (idx + 1 == discography.length) ? idx : idx + 1
+        let prev = (idx - 1 == -1)? idx : idx - 1
+    
+        document.getElementById("button-left").onclick = function() { nextShowcase(prev) }
+        document.getElementById("button-right").onclick = function() { nextShowcase(next) }
         return;
 }
 
+function nextShowcase(idx){
+    const ent = document.getElementById("album-showcase-container");
+    ent.style.visibility = "hidden";
+    popUp(idx)
+    
+}
+
+
+fetch("./assets/discography.json")
+    .then((res) => res.json())
+    .then((data) => {
+        discography = data;
+
+        data.forEach((entry) => {
+            const discogCard = discogTemplate.content.cloneNode(true).children[0];
+            const discogCover = discogCard.querySelector("[discog-cover]"); 
+            discogCover.src = entry.img_location;
+            
+            discogCard.onclick = function() {
+                popUp(discography.indexOf(entry));
+            };
+            discogContainer.append(discogCard);
+        })
+    })
+
+
+
+
+/* convert iframe html double quotes to single quotes:
+echo 'iframe' | sed "s/\"/'/g"
+*/
 /*
 const featuredTemplate = document.querySelector("[featured-template]");
 const featuredContainer = document.querySelector("[featured-container]");
@@ -18,25 +65,11 @@ const blurbContainer = document.querySelector("[blurb-container]");
 
 var featured_ids = [];
 
-function popUp(element){
-    popDown();
-    const ent = document.getElementById(element);
-    ent.style.visibility = "visible";
-}
-
-function popDown(){
-    for(let i = 0; i < featured_ids.length; i++){
-        let ent = document.getElementById(featured_ids[i]);
-        ent.style.visibility = "hidden";
-    }
-
-}
-
 function idName(name){
     
 }
 
-fetch("./assets/featured.json")
+fetch("./assets/discography.json")
     .then((res) => res.json())
     .then((data) => {
         entries = data.map((entry) => {

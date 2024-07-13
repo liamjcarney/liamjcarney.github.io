@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Interwoven Stories -  Vol. 1",
+        "title": "Composer | Album",
+        "img_location": "./assets/interwoven_stories_vol_1.jpg",
+        "description": "A portfolio album showcasing a variety of styles that focuses on an intimate and cozy feeling.\n\nI worked with various vocalists and musicians that contributed to the album.",
+        "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/vIR1vx0PSLY?si=D6Wfdprgftjakbux' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    },
+    {
+        "name": "Awakening",
+        "title": "Composer | Single",
+        "img_location": "./assets/veiled.jpg",
+        "description": "A track that was composed in a day for a Halloween event.\n\nI was influenced by Castlevania and noir style tracks and tried my hand at it. Near the end it also turns into a rock track for fun lol.",
+        "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/vIR1vx0PSLY?si=D6Wfdprgftjakbux' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+    }
+]

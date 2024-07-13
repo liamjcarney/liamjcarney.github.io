@@ -9,7 +9,6 @@
 html {
     scroll-snap-type: y proximity;
     scroll-behavior: smooth;
-   
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -45,6 +44,11 @@ p{
     font-size: 1.5em;
 }
 
+.remove-scrolling { 
+    height: 100%; 
+    overflow-y: hidden; 
+  } 
+
 header{
     background: var(--primary);
     
@@ -62,7 +66,7 @@ header{
     left: 0;
     margin: 0;
     padding: 10px;
-    z-index: 1000;
+    z-index: 990;
 }
 
 header img{
@@ -99,6 +103,7 @@ header img{
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #main{
@@ -199,10 +204,12 @@ body{
 }
 
 .about-text{
-    margin: 5% 10% 8% 20px
-
+    margin: 5% 10% 8% 20px;
 }
 
+.about-text h2{
+    margin: 0;
+}
 
 footer{
     text-align: center;
@@ -272,19 +279,62 @@ footer{
 }
 
 #album-showcase-container{
-    margin-top: 100px;
     visibility: hidden;
     position: fixed;
     width: 100%;
     height: 100%;
-    top: 0%;
-    left: 0%;
+    top: 0;
+    left: 0;
+    background-color: var(--primary);
+    z-index: 999;
+    display: grid;
+}
+
+.album-showcase-x{
+    position: fixed;
+    top: 0;
+    right: 7vw;
+    width: 1vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: xx-large;
+    align-items: center;
+}
+
+#album-showcase-main{
+    padding: 5vh;
+    display: grid;
+    grid-template-columns: 8fr 84fr 8fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+
+.album-showcase-content{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px; 
-    background-color: var(--primary);
+}
+
+.album-showcase-buttons{
+    text-align: center;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+}
+
+.left{
+    flex-direction: row;
+    padding-left: 4vw;
+}
+
+.right{
+    flex-direction: row-reverse;
+    padding-right: 4vw;
 }
 
 .album-showcase-top{
@@ -298,27 +348,45 @@ footer{
     justify-content: center;
 }
 
+.album-showcase-cover img{
+    width: 22vw;
+    border-radius: 5px;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.25);
+    
+}
+
 .album-showcase-media{
-    display: inline;
-    height: 300px; 
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
-.album-showcase-cover:hover{
-    .vinyl-record img{
-        translate: 150px;
-        animation: spin 2s infinite linear;
-    }
-}
-.album-showcase-text{
-
+.album-showcase-text p{
+    padding-bottom: 5vh;
 }
 
 .album-showcase-scrollable{
-    height: 300px;
-    overflow: auto;
-    padding: 10px;
-    box-sizing: border-box;
-  
+    height: 35vh;
+    overflow-y: scroll;
+    scrollbar-color: var(--textdarker) var(--primary);
+    scrollbar-width: auto;
+    margin: 10px 5vw;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.album-showcase-scrollable-fade{
+    background: var(--primary);
+    /*
+    background: -moz-linear-gradient(180deg, var(--primary) 0%, var(--primary) 90%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(180deg, var(--primary) 0%, var(--primary) 90%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(180deg, var(--primary) 0%, var(--primary) 90%, rgba(0,0,0,0) 100%);
+    */
+    background: linear-gradient(0deg, var(--primary) 0%, var(--primary) 10%, rgba(0,0,0,0) 100%);
+
+    position: absolute;
+    margin: 25vh 5vw;
+    padding: 10vh 100% 0 100%;
 }
 
 .album-showcase-bottom{
