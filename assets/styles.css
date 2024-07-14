@@ -288,6 +288,8 @@ footer{
     background-color: var(--primary);
     z-index: 999;
     display: grid;
+    opacity: 0;
+    transition: 0.3s
 }
 
 .album-showcase-x{
