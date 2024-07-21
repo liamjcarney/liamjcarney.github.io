@@ -24,7 +24,7 @@
         "name": "True Blood",
         "title": "Composer & SFX | Video Game",
         "img_location": "./assets/trueblood.png",
-        "description": "True Blood is an indie game for a friend’s thesis project. The game is a metroidvania with the likes of Hollow Knight and Ori and the Will of the Wisps.\n\nI composed the music and did the sound effects for the game, taking inspiration from the games mentioned above. I used FMOD for the audio integration.\n\nContact me for a download to play.",
+        "description": "True Blood is an indie game for a friend's thesis project. The game is a metroidvania with the likes of Hollow Knight and Ori and the Will of the Wisps.\n\nI composed the music and did the sound effects for the game, taking inspiration from the games mentioned above. I used FMOD for the audio integration.\n\nContact me for a download to play.",
         "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Y9eS7wgj6rQ?si=dpPZ86lrUX49uUg-' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     },
     {

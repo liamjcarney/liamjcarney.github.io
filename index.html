@@ -13,31 +13,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="./assets/favicon.png">
     <link rel="stylesheet" href="./assets/styles.css"/>
+    <link rel="stylesheet" href="./assets/discography.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 
   <body>
     <header>
-        <a href="#hero"><img src="./assets/LC_Theme.png"></a>
-        <ul class="navbar">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#reel">Music Reel</a>
-            </li>
-            <li>
-                <a href="#discography">Discography</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
-        </ul>
-        <div>
-            <a href="https://www.youtube.com/@liamcarneymusic" class="fa fa-youtube-play fa-2x"></a>
-            <a href="https://www.instagram.com/liamjcarney/" class="fa fa-instagram fa-2x"></a>
-            <a href="https://x.com/liamjcarney" class="fa fa-twitter fa-2x"></a>
-            <a href="https://liamcarney.bandcamp.com/" class="fa fa-bandcamp fa-2x"></a>
+        <div id="main-header">
+            <a href="#hero"><img src="./assets/LC_Theme.png"></a>
+            <ul class="navbar">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#reel">Music Reel</a>
+                </li>
+                <li>
+                    <a href="#discography">Discography</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="navbar-socials">
+                <a href="https://www.youtube.com/@liamcarneymusic" class="fa fa-youtube-play fa-2x"></a>
+                <a href="https://www.instagram.com/liamjcarney/" class="fa fa-instagram fa-2x"></a>
+                <a href="https://x.com/liamjcarney" class="fa fa-twitter fa-2x"></a>
+                <a href="https://liamcarney.bandcamp.com/" class="fa fa-bandcamp fa-2x"></a>
+            </div>
+        </div>
+
+        <div id="mobile-header">
+            <div class="mobile-header-top">
+                <a href="#hero"><img src="./assets/LC_Theme.png"></a>
+                <div class="navbar-socials">
+                    <a href="https://www.youtube.com/@liamcarneymusic" class="fa fa-youtube-play fa-2x"></a>
+                    <a href="https://www.instagram.com/liamjcarney/" class="fa fa-instagram fa-2x"></a>
+                    <a href="https://x.com/liamjcarney" class="fa fa-twitter fa-2x"></a>
+                    <a href="https://liamcarney.bandcamp.com/" class="fa fa-bandcamp fa-2x"></a>
+                </div>
+            </div>
+
+            <ul class="navbar">
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#reel">Music Reel</a>
+                </li>
+                <li>
+                    <a href="#discography">Discography</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+
         </div>
     </header>
 
@@ -72,8 +103,8 @@
                 </p>
             </div>
         </div>
-
-        <div id="reel"></div>
+        <div id="bg-change">
+            <div id="reel"></div>
         <div id="reel-div">
             <h2>Music Reel</h2>
             <p>⚠️ Coming Soon! ⚠️</p>
@@ -82,16 +113,6 @@
         <div id="discography"></div>
         <div id="discography-div">
             <h2>Discography</h2>
-            <!--
-            <div class="album-container" onclick="popUp()">
-                <div class="vinyl-record">
-                    <img src="./assets/LC_Vinyl.png">
-                </div>
-                <div class="album-cover">
-                    <img src="./assets/interwoven_stories_vol_1.jpg">
-                </div>
-            </div>
-            -->
             <div id="discography-container" discog-container>
                 <template discog-template>
                     <div class="album-container">
@@ -139,54 +160,22 @@
             </div>
      
 
-            <!--
-            <div class="featured-blurb-container" blurb-container>
-                <template blurb-template>
-                    <div class="featured-blurb" id="#">
-                        <div class="featured-blurb-showcase" blurb-showcase>
-                        </div>
-                        <div class="featured-blurb-text" blurb-text-div>
-                            <div class="featured-blurb-header" blurb-header-div>
-                                <h3 class="featured-blurb-header-text" blurb-header></h3>
-                                <button class="featured-blurb-header-button" blurb-button></button>
-                            </div>
-                            <p class="featured-blurb-description" blurb-description></p>
-                        </div>
-                    </div>
-                </template>
-            </div>
-
-            <div class="featured-container" featured-container>
-                <template featured-template>
-                    <div class="featured-card">
-                        <img class="featured-image" src="#" featured-img>
-                        <div class="featured-caption">
-                            <h3 class="featured-title" featured-title></h3>
-                            <p class="featured-description" featured-description></p>
-                        </div>
-                    </div>
-                </template>
-            </div>
-            
         </div>
-       
-            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3017447510/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/interwoven-stories-vol-1">Interwoven Stories, Vol 1 by Liam Carney</a></iframe>
-            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=3060262278/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/veiled">Veiled by Liam Carney</a></iframe>
-            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=2512784369/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/anesthesia">Anesthesia by Liam Carney</a></iframe>
-            <iframe style="border: 0; width: 350px; height: 470px;" src="https://bandcamp.com/EmbeddedPlayer/album=480859637/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="https://liamcarney.bandcamp.com/album/what-we-knew-2">What We Knew by Liam Carney</a></iframe>
-            -->
-        <hr/>
+ 
         <div id="contact"></div>
         <div id="contact-div">
             <h2>Contact</h2>
             <p>
                 Contact Liam! call him now !!!!
             </p>
+            <p>
+                
+            </p>
         </div>
     </div>
 
-    </div>
-    <hr/>
+
+
     <footer>
         <script src="./assets/featured.js"></script>
         <p>Insert Social Media Sites here</p>
