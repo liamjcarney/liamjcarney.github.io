@@ -44,7 +44,9 @@ fetch("./assets/discography.json")
 
         data.forEach((entry) => {
             const discogCard = discogTemplate.content.cloneNode(true).children[0];
-            const discogCover = discogCard.querySelector("[discog-cover]"); 
+            const discogCover = discogCard.querySelector("[discog-cover]");
+            const vinylLabel = discogCard.querySelector("[vinyl-label]"); 
+            vinylLabel.src = entry.img_location;
             discogCover.src = entry.img_location;
             
             discogCard.onclick = function() {

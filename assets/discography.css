@@ -14,19 +14,31 @@
 
 .album-container:hover{
     .vinyl-record img{
-        translate: 200px;
+        translate: 20vh;
         animation: spin 2s infinite linear;
     }
 }
 
 .vinyl-record{
     position: relative;
-    top: 0;
+    top: -14.5vh;
     left: 0;
+    height: 40vh;
 }
+.vinyl-label{
+    position: relative;
+    top: 27vh;
+    left: 11vh;
+    width: 15vh;
+}
+
+.vinyl-disk{
+    width: 38vh;
+    z-index: 880;
+}
+
 .vinyl-record img{
     transition: 0.3s ease-in-out;
-    width: 38vh;
 }
 
 /* TODO: moz, webkit, etc for animations */
@@ -49,6 +61,7 @@
     width: 40vh;
     border-radius: 5px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.25);
+    z-index: 890;
 }
 
 #album-showcase-container{
