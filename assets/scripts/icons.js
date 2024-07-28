@@ -1,4 +1,7 @@
 const icons = [
+    "x",
+    "left",
+    "right",
     "amazon-music",
     "apple-music",
     "bandcamp",
