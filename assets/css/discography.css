@@ -1,8 +1,8 @@
 #discography-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 400px));
-    grid-column-gap: 25vw;
-    grid-row-gap: 15vh;
+    grid-template-columns: repeat(auto-fit, minmax(40vh, 40vh));
+    grid-column-gap: 12vw;
+    grid-row-gap: 12vh;
     align-items: center;
     justify-content: center;
 }

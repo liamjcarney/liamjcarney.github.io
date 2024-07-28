@@ -45,6 +45,17 @@ p {
     font-size: 1.5em;
 }
 
+.icon{
+    display: flex;
+    justify-content: center;
+    width: 6vw;
+    height: 6vh;
+}
+
+svg{
+    fill: var(--textdark);
+}
+
 .remove-scrolling { 
     height: 100%; 
     overflow-y: hidden; 
@@ -144,13 +155,16 @@ header img{
     height:2px;
 }
 
-/* TODO: Remove */
-.fa{
-    color: var(--textdark);
-    text-decoration: none;
-    padding: 0;
-
+.navbar-socials {
+    padding-right: 2vw;
+    display: flex;
+    justify-content: space-between;
 }
+
+.navbar-socials .icon{
+    width: 2vw;
+}
+
 
 body{
     background-color: var(--primary);
@@ -162,7 +176,7 @@ body{
 #hero{
     width: 100vw;
     height: 100vh;
-    background-image: url(./hero-header.png);
+    background-image: url(../img/hero-header.png);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -285,7 +299,7 @@ footer{
 .reel-container{
     margin: 1vh 10vw;
     padding: 2vh;
-    background-color: var(--textdarker);
+    background-color: #ffe3d0b4;
     border-radius: 10px;
     text-align: center;
 }
@@ -302,3 +316,9 @@ footer{
     padding-bottom: 5vh; 
 }
 
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1vh 20vw;
+}

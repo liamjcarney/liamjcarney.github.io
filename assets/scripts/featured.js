@@ -37,7 +37,7 @@ function nextShowcase(idx){
     popUp(idx, false)
 }
 
-fetch("./assets/discography.json")
+fetch("./assets/scripts/discography.json")
     .then((res) => res.json())
     .then((data) => {
         discography = data;
