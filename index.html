@@ -105,27 +105,30 @@
         </div>
         <div id="bg-change">
             <div id="reel"></div>
-        <div id="reel-div">
-            <h2>Music Reel</h2>
-            <p>⚠️ Coming Soon! ⚠️</p>
-        </div>
-
-        <div id="discography"></div>
-        <div id="discography-div">
-            <h2>Discography</h2>
-            <div id="discography-container" discog-container>
-                <template discog-template>
-                    <div class="album-container">
-                        <div class="vinyl-record">
-                            <img class="vinyl-label" src="./assets/interwoven_stories_vol_1.jpg" vinyl-label>
-                            <img class= "vinyl-disk" src="./assets/LC_Vinyl.png">
-                        </div>
-                        <div class="album-cover">
-                            <img src="#" discog-cover>
-                        </div>
-                    </div>
-                </template>
+            <div id="reel-div">
+                <h2>Music Reel</h2>
+                <div class="reel-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/SFYBTNiz2SM?si=JGzjTjfT0djBIh_e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </div>
+            <p>⚠️ Coming Soon! ⚠️</p>
+
+            <div id="discography"></div>
+            <div id="discography-div">
+                <h2>Discography</h2>
+                <div id="discography-container" discog-container>
+                    <template discog-template>
+                        <div class="album-container">
+                            <div class="vinyl-record">
+                                <img class="vinyl-label" src="./assets/interwoven_stories_vol_1.jpg" vinyl-label>
+                                <img class= "vinyl-disk" src="./assets/LC_Vinyl.png">
+                            </div>
+                            <div class="album-cover">
+                                <img src="#" discog-cover>
+                            </div>
+                        </div>
+                    </template>
+                </div>
             </div>
           
             <div id="album-showcase-container">
@@ -137,30 +140,26 @@
                         <p> < </p>
                     </div>
                     <div class="album-showcase-content">
-                        <div class="album-showcase-top">
-                            <div class="album-showcase-media">
+                        <div class="album-showcase-media">
                                 <div class="album-showcase-cover">
                                     <img id="album-showcase-cover" src="#">
                                 </div>
-                            </div>
-                            <div class="album-showcase-text">
-                                <h3 id="album-showcase-name"></h3>
-                                <h4 id="album-showcase-title"></h4>
-                                <div class="album-showcase-scrollable-fade"></div>
-                                <div class="album-showcase-scrollable">
-                                    <p id="album-showcase-description"></p>
-                                </div>
+                                <div id="album-showcase-embed"></div>
+                        </div>
+                        <div class="album-showcase-text">
+                            <h3 id="album-showcase-name"></h3>
+                            <h4 id="album-showcase-title"></h4>
+                            <div class="album-showcase-scrollable-fade"></div>
+                            <div class="album-showcase-scrollable">
+                                <p id="album-showcase-description"></p>
                             </div>
                         </div>
-                        <div class="album-showcase-bottom" id="album-showcase-embed"></div>
                     </div>
                     <div class="album-showcase-buttons right" id="button-right" onclick="nextShowcase(0)">
                         <p> > </p>
                     </div>
                 </div>
-            </div>
-     
-
+            </div>     
         </div>
  
         <div id="contact"></div>

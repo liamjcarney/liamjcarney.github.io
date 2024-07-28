@@ -104,6 +104,46 @@ header img{
     font-size: large;
 }
 
+.navbar a{
+    position: relative;
+    color: var(--textdark);
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ffe3d0b4;
+    border: solid 2px #ffe3d0b4;
+    border-radius: 10px;
+}
+.navbar a:before, 
+.navbar a:after {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 10px;
+    background-color: var(--textdarker);
+    content:"";
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    height:2px;
+}
+.navbar a:before {
+    left: 0;
+    top: -10px;
+}
+.navbar a:after {
+    right: 0;
+    bottom: -10px;
+}
+.navbar a:hover {
+    color: var(--textdarker);
+}
+.navbar a:hover:after, 
+.navbar a:hover:before {
+    width: 100%;
+    height:2px;
+}
+
 /* TODO: Remove */
 .fa{
     color: var(--textdark);
@@ -221,7 +261,6 @@ body{
     background: -moz-linear-gradient(0deg, var(--primary) 0%, var(--primary) 90%, var(--white) 100%);
     background: -webkit-linear-gradient(0deg, var(--primary) 0%, var(--primary) 90%, var(--white) 100%);
     background: linear-gradient(0deg, var(--primary) 0%, var(--primary) 90%, var(--white) 100%);
-
 }
 
 #contact-div h2{
@@ -243,6 +282,14 @@ footer{
     margin-top: 0;
 }
 
+.reel-container{
+    margin: 1vh 10vw;
+    padding: 2vh;
+    background-color: var(--textdarker);
+    border-radius: 10px;
+    text-align: center;
+}
+
 #discography-div h2 {
     color: var(--textdark);
 }
@@ -255,92 +302,3 @@ footer{
     padding-bottom: 5vh; 
 }
 
-@media only screen and (max-width: 600px) {
-    h1 {
-        font-size: 3.5em;
-    }
-    
-    h2 {
-        font-size: 2.5em;
-    }
-    
-    h3 {
-        font-size: 2.2em;
-    }
-    
-    h4 {
-        font-size: 2em;
-        line-height: normal;
-    }
-    
-    p {
-        font-size: 1.2em;
-    }
-
-    header {
-        height: 12vh;
-    }
-
-    #main-header{
-        display: none;
-    }
-
-    #mobile-header{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 6vh 6vh;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-        margin: 0;
-        padding: 0;
-        height: 0vh;
-    }
-
-    header img{
-        display: inline;
-        transform: scale(0.8);
-    }
-
-    .mobile-header-top{
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px; 
-        margin: 0;
-        padding: 0;
-    }
-
-    .navbar li{
-        display: block;
-        position: relative;
-    }
-    
-    .navbar a{
-        font-size: 1em;
-    }
-    .navbar-socials{
-        display: flex;
-        align-items: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    #about-div{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px; 
-    }
-    
-    #about-div img{
-        width: 80vw;
-        margin: 3vh 10vw;
-    }
-    
-    .about-text{
-        margin: 3vh 10vw 10vh 10vw;
-    }
-
-}
