@@ -4,7 +4,7 @@
         "title": "Composer | Album",
         "img_location": "./assets/img/interwoven_stories_vol_1.jpg",
         "description": "A portfolio album showcasing a variety of styles that focuses on an intimate and cozy feeling.\n\nI worked with various vocalists and musicians that contributed to the album.",
-        "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/vIR1vx0PSLY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+        "embed":  "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/vIR1vx0PSLY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     },
     {
         "name": "Toaster Fish",
@@ -18,27 +18,27 @@
         "title": "Composer & SFX | Short Film",
         "img_location": "./assets/img/mamao.png",
         "description": "A film by the Algonquin College animation team. I composed the music and did the sound effects. The film is tongue and cheek humor with a lot of charm.\n\nWe took inspiration from movies like Up, Kitbul, and Ratatouille for the soundtrack and SFX. The music was timed to the film, and the sound effects were mostly recorded in my home.",
-        "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/wfgIHk0IpXw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+        "embed": "<iframe width='100%' height='320vh'  src='https://www.youtube.com/embed/wfgIHk0IpXw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     },
     {
         "name": "True Blood",
         "title": "Composer & SFX | Video Game",
         "img_location": "./assets/img/trueblood.png",
         "description": "True Blood is an indie game for a friend's thesis project. The game is a metroidvania with the likes of Hollow Knight and Ori and the Will of the Wisps.\n\nI composed the music and did the sound effects for the game, taking inspiration from the games mentioned above. I used FMOD for the audio integration.\n\nContact me for a download to play.",
-        "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/Y9eS7wgj6rQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+        "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/Y9eS7wgj6rQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     },
     {
         "name": "First Day At Tony's",
         "title": "Assistant Composer & SFX | Video Game",
         "img_location": "./assets/img/tonys.jpg",
         "description": "A game jam project made in only 48 hours. The game is based around a cozy pizzeria where you need to decipher hand written notes to make the correct pizza order.\n\nThe music was largely written by a friend of mine, Ryan Liberty. I helped assist in composition and quality assurance.\n\nAvailable to play on Itch.io",
-        "embed": "<iframe frameborder='0' src='https://itch.io/embed/1846704' width='552' height='167'><a href='https://cheezytaco101.itch.io/first-day-at-tonys'>First Day at Tony&#039;s by AOBUT</a></iframe>"
+        "embed": "<iframe frameborder='0' src='https://itch.io/embed/1846704' width='100%' height='320vh'><a href='https://cheezytaco101.itch.io/first-day-at-tonys'>First Day at Tony&#039;s by AOBUT</a></iframe>"
     },
     {
         "name": "Awakening",
         "title": "Composer | Single",
         "img_location": "./assets/img/awakening.png",
         "description": "A track that was composed in a day for a Halloween event.\n\nI was influenced by Castlevania and noir style tracks and tried my hand at it. Near the end it also turns into a rock track for fun lol.",
-        "embed": "<iframe width='560' height='315' src='https://www.youtube.com/embed/V2RYddGpwSA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+        "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/V2RYddGpwSA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     }
 ]

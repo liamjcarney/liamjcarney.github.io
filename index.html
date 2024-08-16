@@ -126,7 +126,7 @@
                 <h2>Music Reel</h2>
                 <div class="reel-container">
                     <p>⚠️ Coming Soon! ⚠️</p>
-                    <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="100%" height="300vh" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
             </div>
 
@@ -148,6 +148,7 @@
                 </div>
             </div>
           
+            
             <div id="album-showcase-container">
                 <div class="album-showcase-x" onclick="popUp(0)">
                     <div></div>
@@ -175,7 +176,40 @@
                     <div class="album-showcase-buttons right" id="button-right" onclick="nextShowcase(0)">
                     </div>
                 </div>
-            </div>     
+            </div>
+        
+            <div id="album-showcase-container-mobile">
+                <div class="album-showcase-x" onclick="popUp(0)">
+                    <div></div>
+                    <div class="x"></div>
+                </div>
+                <div id="album-showcase-main">
+                    <div class="album-showcase-content">
+                        <div class="album-showcase-media-top">
+                            <div class="album-showcase-cover">
+                                <img id="album-showcase-cover-mobile" src="#">
+                            </div>
+                            <div>
+                                <h3 id="album-showcase-name-mobile"></h3>
+                                <h4 id="album-showcase-title-mobile"></h4>
+                            </div>
+                        </div>
+                        <div class="album-showcase-media-middle">
+                            <div class="album-showcase-buttons left" id="button-left-mobile" onclick="nextShowcase(0)">
+                            </div>
+                            <div class="album-showcase-scrollable-fade"></div>
+                            <div class="album-showcase-scrollable">
+                                <p id="album-showcase-description-mobile"></p>
+                            </div>
+                            <div class="album-showcase-buttons right" id="button-right-mobile" onclick="nextShowcase(0)">
+                            </div>
+                        </div>
+                        <div class="album-showcase-media-bottom">
+                                <div id="album-showcase-embed-mobile"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
  
         <div id="contact"></div>
