@@ -41,7 +41,6 @@
     transition: 0.3s ease-in-out;
 }
 
-/* TODO: moz, webkit, etc for animations */
 @keyframes spin { 
     0% {
         rotate: 0deg;
@@ -114,7 +113,7 @@
     fill: var(--textdarker);
 }
 .x svg:hover{
-    fill: #7c6e6e;
+    fill: var(--secondary-fill);
 }
 #album-showcase-main{
     padding: 3vw;
@@ -138,7 +137,7 @@
 }
 
 .album-showcase-buttons svg:hover{
-    fill: #7c6e6e;
+    fill: var(--secondary-fill);
 
 }
 
@@ -203,11 +202,9 @@
 
 .album-showcase-scrollable-fade{
     background: var(--primary);
-    background: -moz-linear-gradient(0deg, var(--primary) 0%, var(--primary) 10%, rgba(0,0,0,0) 100%);
-    background: -webkit-linear-gradient(0deg, var(--primary) 0%, var(--primary) 10%, rgba(0,0,0,0) 100%);
     background: linear-gradient(0deg, var(--primary) 0%, var(--primary) 10%, rgba(0,0,0,0) 100%);
     position: absolute;
-    margin: 50vh 5vw;
+    margin: 52vh 5vw;
     padding: 10vh 20vw;
 
 }
@@ -300,15 +297,18 @@
         justify-content: center;
     }
 
-
     .album-showcase-scrollable{
         height: 40vh;
     }
 
     .album-showcase-scrollable-fade{
         position: absolute;
-        margin: 33vh 5vw;
+        margin: 32vh 5vw;
         padding: 5vh 45vw;
+    }
+
+    .album-showcase-media-bottom{
+        margin: 10px;
     }
     
 }

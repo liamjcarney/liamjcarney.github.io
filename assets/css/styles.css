@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
 :root {
-    --white: #fafafa;
+    --white: #FAFAFA;
     --primary: #FFF2DB;
+    --secondary: #FFE3D0B4;
+    --secondary-fill: #7C6E6E;
     --textdark: #25150C;
     --textdarker: #2F4E75;
+    --link: #176cd4;
     --font: "Fraunces",serif;
 }
 
@@ -45,12 +48,16 @@ p {
     font-size: 1.5em;
 }
 
+a {
+    color: var(--link);
+}
+
 .icon {
     display: flex;
     justify-content: center;
     width: 6vh;
     height: 6vh;
-    background-color: #ffe3d0b4;
+    background-color: var(--secondary);
     padding: 1vh;
     margin: 1vh;
     border-radius: 10px;
@@ -61,18 +68,13 @@ svg {
 }
 
 svg:hover {
-    fill: #7c6e6e;
+    fill: var(--secondary-fill);
 }
 
 .remove-scrolling { 
     height: 100%; 
     overflow-y: hidden; 
 } 
-
-header {
-
-}
-
 
 #main-header{
     width: 100%;
@@ -128,8 +130,8 @@ header img{
     color: var(--textdark);
     text-decoration: none;
     padding: 10px;
-    background-color: #ffe3d0b4;
-    border: solid 2px #ffe3d0b4;
+    background-color: var(--secondary);
+    border: solid 2px var(--secondary);
     border-radius: 10px;
 }
 
@@ -141,9 +143,6 @@ header img{
     height: 10px;
     background-color: var(--textdarker);
     content:"";
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -o-transition: all 0.3s;
     transition: all 0.3s;
     height:2px;
 }
@@ -259,8 +258,6 @@ body{
 
 #about-div{
     background: var(--white);
-    background: -moz-linear-gradient(180deg, var(--primary) 0%, var(--primary) 90%, rgba(0,0,0,0) 100%);
-    background: -webkit-linear-gradient(180deg, var(--primary) 0%, var(--primary) 90%, rgba(0,0,0,0) 100%);
     background: linear-gradient(180deg, var(--primary) 0%, var(--primary) 90%, var(--white) 100%);
     display: inline-flex;
     align-items: center;
@@ -283,14 +280,13 @@ body{
 #contact-div{
     padding-top: 3vh;
     background-color: var(--primary);
-    background: -moz-linear-gradient(0deg, var(--primary) 0%, var(--primary) 90%, var(--white) 100%);
-    background: -webkit-linear-gradient(0deg, var(--primary) 0%, var(--primary) 90%, var(--white) 100%);
     background: linear-gradient(0deg, var(--primary) 0%, var(--primary) 90%, var(--white) 100%);
 }
 
 #contact-div h2{
     padding-top: 0;
-    margin-top: 0;
+    margin-top: 5vh;
+    line-height: 0;
 }
 
 footer{
@@ -310,7 +306,7 @@ footer{
 .reel-container{
     margin: 1vh 10vw;
     padding: 2vh;
-    background-color: #ffe3d0b4;
+    background-color: var(--secondary);
     border-radius: 10px;
     text-align: center;
 }
@@ -331,7 +327,7 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1vh 20vw;
+    margin: 1vh 20vw 5vh 20vw;
 }
 
 @media only screen and (max-width: 800px) {

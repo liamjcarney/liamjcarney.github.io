@@ -9,21 +9,21 @@
     {
         "name": "Toaster Fish",
         "title": "Composer & SFX | Video Game",
-        "img_location": "./assets/img/toasterfish.png",
+        "img_location": "./assets/img/toasterfish.jpg",
         "description": "A short golf-like video game for the alternative controller showcase at GDC 2023, in which the player uses a toaster as a controller to launch a fish.\n\nI was tasked to write the music and the sound effects in only a couple of hours. Despite the rushed work, many composers and developers at GDC 2023 commented positively on the music and sound design. I used WWise for audio integration.\n\nContact me for a download to play",
         "embed": ""
     },
     {
         "name": "Ma Mao",
         "title": "Composer & SFX | Short Film",
-        "img_location": "./assets/img/mamao.png",
+        "img_location": "./assets/img/mamao.jpg",
         "description": "A film by the Algonquin College animation team. I composed the music and did the sound effects. The film is tongue and cheek humor with a lot of charm.\n\nWe took inspiration from movies like Up, Kitbul, and Ratatouille for the soundtrack and SFX. The music was timed to the film, and the sound effects were mostly recorded in my home.",
         "embed": "<iframe width='100%' height='320vh'  src='https://www.youtube.com/embed/wfgIHk0IpXw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     },
     {
         "name": "True Blood",
         "title": "Composer & SFX | Video Game",
-        "img_location": "./assets/img/trueblood.png",
+        "img_location": "./assets/img/trueblood.jpg",
         "description": "True Blood is an indie game for a friend's thesis project. The game is a metroidvania with the likes of Hollow Knight and Ori and the Will of the Wisps.\n\nI composed the music and did the sound effects for the game, taking inspiration from the games mentioned above. I used FMOD for the audio integration.\n\nContact me for a download to play.",
         "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/Y9eS7wgj6rQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     },
@@ -37,7 +37,7 @@
     {
         "name": "Awakening",
         "title": "Composer | Single",
-        "img_location": "./assets/img/awakening.png",
+        "img_location": "./assets/img/awakening.jpg",
         "description": "A track that was composed in a day for a Halloween event.\n\nI was influenced by Castlevania and noir style tracks and tried my hand at it. Near the end it also turns into a rock track for fun lol.",
         "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/V2RYddGpwSA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
     }
