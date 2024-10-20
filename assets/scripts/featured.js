@@ -63,8 +63,12 @@ fetch("./assets/scripts/discography.json")
             const discogCard = discogTemplate.content.cloneNode(true).children[0];
             const discogCover = discogCard.querySelector("[discog-cover]");
             const vinylLabel = discogCard.querySelector("[vinyl-label]"); 
+            const discogTitle = discogCard.querySelector("[discog-title");
+            const discogSubHeader = discogCard.querySelector("[discog-subheader]");
             vinylLabel.src = entry.img_location;
             discogCover.src = entry.img_location;
+            discogTitle.innerText = entry.name;
+            discogSubHeader.innerText= entry.title;
             
             discogCard.onclick = function() {
                 popUp(discography.indexOf(entry));

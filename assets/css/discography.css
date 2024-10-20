@@ -5,10 +5,12 @@
     grid-row-gap: 12vh;
     align-items: center;
     justify-content: center;
+    margin-bottom: 5vh;
 }
 
 .album-container{
-    height: 40vh; 
+    width: 40vh;
+    height: 45vh;
     display: block;
 }
 
@@ -17,6 +19,21 @@
         translate: 20vh;
         animation: spin 2s infinite linear;
     }
+}
+
+.album-container-text{
+    position: relative;
+    top: -36vh;
+    text-align: center;
+}
+
+.album-container-text h4{
+    font-size: 1.8em;
+    line-height: 0;
+}
+
+.album-container-text h5{
+    font-size: 1em;
 }
 
 .vinyl-record{
