@@ -12,12 +12,16 @@
     width: 40vh;
     height: 45vh;
     display: block;
+    cursor: pointer;
 }
 
 .album-container:hover{
     .vinyl-record img{
         translate: 20vh;
         animation: spin 2s infinite linear;
+    }
+    .album-cover img{
+        transform: scale(1.04);
     }
 }
 
@@ -78,6 +82,7 @@
     border-radius: 5px;
     box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.25);
     z-index: 890;
+    transition: 0.2s;
 }
 
 #album-showcase-container{
@@ -211,7 +216,7 @@
     height: 70vh;
     overflow-y: scroll;
     scrollbar-color: var(--textdarker) var(--primary);
-    scrollbar-width: auto;
+    scrollbar-width: none;
     margin: 10px 5vw;
     border-radius: 10px;
     text-align: left;

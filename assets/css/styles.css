@@ -6,7 +6,7 @@
     --secondary-fill: #7C6E6E;
     --textdark: #25150C;
     --textdarker: #2F4E75;
-    --link: #176cd4;
+    --link: #5694de;
     --font: "Fraunces",serif;
 }
 
@@ -281,6 +281,7 @@ body{
     padding-top: 3vh;
     background-color: var(--primary);
     background: linear-gradient(0deg, var(--primary) 0%, var(--primary) 90%, var(--white) 100%);
+    text-align: center;
 }
 
 #contact-div h2{
