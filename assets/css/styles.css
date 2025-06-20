@@ -299,17 +299,23 @@ footer{
     background-color: var(--white);
 }
 
-#reel-div h2{
+#featured-div h2{
     padding-top: 0;
     margin-top: 0;
 }
 
-.reel-container{
+.featured-container{
     margin: 1vh 10vw;
     padding: 2vh;
     background-color: var(--secondary);
     border-radius: 10px;
     text-align: center;
+}
+
+.featured-iframe{
+    aspect-ratio: 16 / 9;
+    height: auto;
+    width: 80%;
 }
 
 #discography-div h2 {

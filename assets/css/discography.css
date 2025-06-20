@@ -134,9 +134,11 @@
     height: 4vh;
     fill: var(--textdarker);
 }
+
 .x svg:hover{
     fill: var(--secondary-fill);
 }
+
 #album-showcase-main{
     padding: 3vw;
     display: grid;
@@ -234,7 +236,6 @@
 .album-showcase-bottom{
     text-align: center;
 }
-
 
 
 @media only screen and (max-width: 600px) {
