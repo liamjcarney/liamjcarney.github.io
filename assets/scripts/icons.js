@@ -11,15 +11,15 @@ const icons = [
     "spotify",
     "youtube",
     "yt-music",
-    "twitter"
-  ];
+    "twitter",
+];
 
-  icons.forEach(icon => {
-    document.querySelectorAll(`.${icon}`).forEach(element => {
-      fetch(`assets/svg/${icon}.svg`)
-        .then(response => response.text())
-        .then(data => {
-          element.innerHTML = data;
-        })
-    })
-  });
+icons.forEach((icon) => {
+    document.querySelectorAll(`.${icon}`).forEach((element) => {
+        fetch(`assets/svg/${icon}.svg`)
+            .then((response) => response.text())
+            .then((data) => {
+                element.innerHTML = data;
+            });
+    });
+});
