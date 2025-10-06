@@ -18,7 +18,7 @@
 .album-container:hover {
     .vinyl-record img {
         translate: 20vh;
-        animation: spin 2s infinite linear;
+        animation-play-state: running;
     }
     .album-cover img {
         transform: scale(1.04);
@@ -60,6 +60,8 @@
 
 .vinyl-record img {
     transition: 0.3s ease-in-out;
+    animation: spin 2s infinite linear;
+    animation-play-state: paused;
 }
 
 @keyframes spin {
