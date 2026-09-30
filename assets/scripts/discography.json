@@ -1,44 +1,44 @@
 [
-    {
-        "name": "Interwoven Stories, Vol. 1",
-        "title": "Composer | Album",
-        "img_location": "./assets/img/interwoven_stories_vol_1.jpg",
-        "description": "This portfolio album showcases a dynamic blend of musical styles. I wanted to push my ability from writing big symphonic sections to cozy, intimate pieces that come together seamlessly. This album started production in 2022 and finished in 2023 and is incredibly special to me being my favorite collection of music that I’ve currently written.\n\nI worked with many of my close friends to bring this album to life, featuring numerous musicians and vocalists recorded at home or remotely. I also collaborated with mixing engineer Michael Yang and artist Alonso Urmeneta to bring this project together. I filmed and edited the music videos.\n\nThe first track, “Once Upon A Time” acts as the grand opening for the project, interweaving vocals performed by my friend Krystal Laplante and full symphonic statements using a virtual orchestra. The tracks, “Wind and Ruined Walkways” and “The Challengers” are video game-inspired pieces based on background and battle music respectively. Featuring cello performed by Polina Faustov. “A Moment With You” is a jazz track reminiscent of old jazz standards. “Afternoon On Weekends” is a waltz and “I Might Fly” is a cottage-core song with authentic performances from all my best friends.",
-        "embed":  "<iframe frameborder='0' src='https://itch.io/embed/4821833' width='552' height='167'><a href='https://cheezytaco101.itch.io/michael-wave-reheated'>Michael Wave: Reheated by AOBUT, paige mills, puffertron, RyanLbrty, liamjcarney</a></iframe>"
-    },
-    {
-        "name": "Michael Wave: Reheated",
-        "title": "Composer & SFX | Video Game",
-        "img_location": "./assets/img/Michael Wave.png",
-        "description": "A fast-paced FPS made for the GMTK 2026 Game Jam, where the game had to be created in just 72 hours. The goal is simple: use the Magnatron to cook all of the enemies before the microwave timer runs out.\n\nI wrote the menu music and two songs for the game, all within a single afternoon. I also performed the voice of Michael myself.\n\nThe game placed 75th in popularity out of over 10,000 entries, with particularly high ratings in the audio category.",
-        "embed": "<iframe frameborder'0' src='https://itch.io/embed/4821833' width='552' height='167'><a href='https://cheezytaco101.itch.io/michael-wave-reheated'>Michael Wave: Reheated by AOBUT, paige mills, puffertron, RyanLbrty, liamjcarney</a></iframe>"
-    },
-    {
-        "name": "Ma Mao",
-        "title": "Composer & SFX | Short Film",
-        "img_location": "./assets/img/mamao.jpg",
-        "description": "I composed, produced, and mixed the music and sound design for the award-winning animated short film, 'Ma Mao' by the Algonquin College Animation Team, directed by Thanh Ngo.\n\nThe film won Best International Student Short Film in 2D at the 2024 Los Angeles Animation Festival, Best Screenplay Award at Xinê Xem Fest 2024 in Vietnam, and was officially selected in Spark Animation 2024 festival in Vancouver.\n\nI was brought onto the film early in production so the music and visuals are directly linked to tell the film's story. I got to record myself playing the accordion and most of the film's sound effects and foley were recorded in my home.",
-        "embed": "<iframe width='100%' height='320vh'  src='https://www.youtube.com/embed/wfgIHk0IpXw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
-    },
-    {
-        "name": "True Blood",
-        "title": "Composer & SFX | Video Game",
-        "img_location": "./assets/img/trueblood.jpg",
-        "description": "True Blood is an indie game for a friend’s thesis project in 2024. The game is a metroidvania in the likes of Hollow Knight and Ori and the Will of the Wisps.\n\nI composed the music and the sound effects for the game, taking inspiration from the games mentioned above. I was tasked to write a title, area, battle, and town theme. Since the game was a short experience, I stuck to one musical motif and expanded on it in different ways. I integrated the music using FMOD.\n\nContact me for a download to play.",
-        "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/Y9eS7wgj6rQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
-    },
-    {
-        "name": "First Day At Tony's",
-        "title": "Assistant Composer & SFX | Video Game",
-        "img_location": "./assets/img/tonys.jpg",
-        "description": "A game jam project made in only 48 hours. The game is based around a cozy pizzeria where you need to decipher hand written notes to make the correct pizza order.\n\nThe music was largely written by a friend of mine, Ryan Liberty. I helped assist in composition, production, and quality assurance.\n\nAvailable to play on Itch.io",
-        "embed": "<iframe frameborder='0' src='https://itch.io/embed/1846704' width='100%' height='320vh'><a href='https://cheezytaco101.itch.io/first-day-at-tonys'>First Day at Tony&#039;s by AOBUT</a></iframe>"
-    },
-    {
-        "name": "Awakening",
-        "title": "Composer | Single",
-        "img_location": "./assets/img/awakening.jpg",
-        "description": "A track that was composed in a day for a Halloween event.\n\nI was influenced by Castlevania and noir style tracks and tried my hand at it. Near the end it also turns into a rock track for fun lol.",
-        "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/V2RYddGpwSA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
-    }
+  {
+    "name": "Interwoven Stories, Vol. 1",
+    "title": "Composer | Album",
+    "img_location": "./assets/img/interwoven_stories_vol_1.jpg",
+    "description": "This portfolio album showcases a dynamic blend of musical styles. I wanted to push my ability from writing big symphonic sections to cozy, intimate pieces that come together seamlessly. This album started production in 2022 and finished in 2023 and is incredibly special to me being my favorite collection of music that I’ve currently written.\n\nI worked with many of my close friends to bring this album to life, featuring numerous musicians and vocalists recorded at home or remotely. I also collaborated with mixing engineer Michael Yang and artist Alonso Urmeneta to bring this project together. I filmed and edited the music videos.\n\nThe first track, “Once Upon A Time” acts as the grand opening for the project, interweaving vocals performed by my friend Krystal Laplante and full symphonic statements using a virtual orchestra. The tracks, “Wind and Ruined Walkways” and “The Challengers” are video game-inspired pieces based on background and battle music respectively. Featuring cello performed by Polina Faustov. “A Moment With You” is a jazz track reminiscent of old jazz standards. “Afternoon On Weekends” is a waltz and “I Might Fly” is a cottage-core song with authentic performances from all my best friends.",
+    "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/vIR1vx0PSLY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+  },
+  {
+    "name": "Michael Wave: Reheated",
+    "title": "Composer & SFX | Video Game",
+    "img_location": "./assets/img/Michael Wave.png",
+    "description": "A fast-paced FPS made for the GMTK 2026 Game Jam, where the game had to be created in just 72 hours. The goal is simple: use the Magnatron to cook all of the enemies before the microwave timer runs out.\n\nI wrote the menu music and two songs for the game, all within a single afternoon. I also performed the voice of Michael myself.\n\nThe game placed 75th in popularity out of over 10,000 entries, with particularly high ratings in the audio category.",
+    "embed": "<iframe frameborder'0' src='https://itch.io/embed/4821833' width='100%' height='175vh'><a href='https://cheezytaco101.itch.io/michael-wave-reheated'>Michael Wave: Reheated by AOBUT, paige mills, puffertron, RyanLbrty, liamjcarney</a></iframe>"
+  },
+  {
+    "name": "Ma Mao",
+    "title": "Composer & SFX | Short Film",
+    "img_location": "./assets/img/mamao.jpg",
+    "description": "I composed, produced, and mixed the music and sound design for the award-winning animated short film, 'Ma Mao' by the Algonquin College Animation Team, directed by Thanh Ngo.\n\nThe film won Best International Student Short Film in 2D at the 2024 Los Angeles Animation Festival, Best Screenplay Award at Xinê Xem Fest 2024 in Vietnam, and was officially selected in Spark Animation 2024 festival in Vancouver.\n\nI was brought onto the film early in production so the music and visuals are directly linked to tell the film's story. I got to record myself playing the accordion and most of the film's sound effects and foley were recorded in my home.",
+    "embed": "<iframe width='100%' height='320vh'  src='https://www.youtube.com/embed/wfgIHk0IpXw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+  },
+  {
+    "name": "True Blood",
+    "title": "Composer & SFX | Video Game",
+    "img_location": "./assets/img/trueblood.jpg",
+    "description": "True Blood is an indie game for a friend’s thesis project in 2024. The game is a metroidvania in the likes of Hollow Knight and Ori and the Will of the Wisps.\n\nI composed the music and the sound effects for the game, taking inspiration from the games mentioned above. I was tasked to write a title, area, battle, and town theme. Since the game was a short experience, I stuck to one musical motif and expanded on it in different ways. I integrated the music using FMOD.\n\nContact me for a download to play.",
+    "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/Y9eS7wgj6rQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+  },
+  {
+    "name": "First Day At Tony's",
+    "title": "Assistant Composer & SFX | Video Game",
+    "img_location": "./assets/img/tonys.jpg",
+    "description": "A game jam project made in only 48 hours. The game is based around a cozy pizzeria where you need to decipher hand written notes to make the correct pizza order.\n\nThe music was largely written by a friend of mine, Ryan Liberty. I helped assist in composition, production, and quality assurance.\n\nAvailable to play on Itch.io",
+    "embed": "<iframe frameborder='0' src='https://itch.io/embed/1846704' width='100%' height='175vh'><a href='https://cheezytaco101.itch.io/first-day-at-tonys'>First Day at Tony&#039;s by AOBUT</a></iframe>"
+  },
+  {
+    "name": "Awakening",
+    "title": "Composer | Single",
+    "img_location": "./assets/img/awakening.jpg",
+    "description": "A track that was composed in a day for a Halloween event.\n\nI was influenced by Castlevania and noir style tracks and tried my hand at it. Near the end it also turns into a rock track for fun lol.",
+    "embed": "<iframe width='100%' height='320vh' src='https://www.youtube.com/embed/V2RYddGpwSA' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe>"
+  }
 ]
